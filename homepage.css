@@ -11,23 +11,26 @@ body {
 }
 
 /* Header and Navbar */
+/* Header and Navbar */
 .header {
     background: linear-gradient(135deg, #3a1d57, #161b1f); /* Dark gradient with a touch of neon */
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Align items to the right */
     align-items: center;
     padding: 10px 0;
+    position: relative;
 }
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end; /* Align items to the right */
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -39,6 +42,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: #ff00ff; /* Neon Pink */
+    margin-right: auto; /* Pushes the logo to the left */
 }
 
 .nav-links {
